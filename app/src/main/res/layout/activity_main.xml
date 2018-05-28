@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".basic.MainActivity">
+
+    <Button
+        android:id="@+id/btn_inject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@Inject注解"/>
+
+    <Button
+        android:id="@+id/btn_module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@Module注解"/>
+
+    <Button
+        android:id="@+id/btn_main_dependencies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dependencies使用"/>
+
+    <Button
+        android:id="@+id/btn_main_subcomponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subcomponent使用"/>
+
+    <Button
+        android:id="@+id/btn_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@Named"/>
+
+    <Button
+        android:id="@+id/btn_qualifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@Qualifier"/>
+
+</LinearLayout>

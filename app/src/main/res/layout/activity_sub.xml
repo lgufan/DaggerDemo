@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sub.SubActivity">
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@Subcomponent"/>
+
+    <Button
+        android:id="@+id/btn_singleton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@Singleton"/>
+
+</LinearLayout>
